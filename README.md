@@ -1,4 +1,4 @@
 # The Weat-Project
 
 
-Prediction of Food Prices
+Training Projet BigData : Food Prices Analysis & Prediction
