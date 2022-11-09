@@ -45,7 +45,7 @@ choix_horizon = extract_horizon.iloc[0]
 
 if choix_matprem == 'Blé':
 
-    df = pd.read_csv("C:/Users/administrateur/Downloads/WheatApp/FileBleUS.csv", sep=';')
+    df = pd.read_csv("FileBleUS.csv", sep=';')
     df = df.fillna(0)
 
     # Preprocessing
@@ -100,7 +100,7 @@ if choix_matprem == 'Blé':
 
 elif choix_matprem == 'Maïs':
 
-    df = pd.read_csv('C:/Users/administrateur/Downloads/WheatApp/FinalMaizeIndex.csv', sep=';')
+    df = pd.read_csv('FinalMaizeIndex.csv', sep=';')
     data_maize = df[['MaizeIndex']].values
 
     # Preprocessing
@@ -155,7 +155,7 @@ elif choix_matprem == 'Maïs':
 
 elif choix_matprem == 'Viande':
 
-    df = pd.read_csv('C:/Users/administrateur/Downloads/WheatApp/FAO_food_price_indices_clean.csv', sep=';')
+    df = pd.read_csv('FAO_food_price_indices_clean.csv', sep=';')
     data_meat = df[['Meat']].values
 
     # Preprocessing
